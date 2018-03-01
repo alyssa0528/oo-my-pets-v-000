@@ -70,8 +70,8 @@ class Owner
   end 
   
   def walk_dogs 
-    dog = @pets[:dogs] #=> Daisy dog object
-    self.pets[:dogs]#.mood = "happy"
+    self.pets[:dogs]#=> Daisy dog object
+    .mood = "happy"
         binding.pry
   end 
   
