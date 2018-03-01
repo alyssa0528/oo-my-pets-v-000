@@ -80,7 +80,7 @@ class Owner
   end 
   
   def list_pets
-    self.pets
+    self.buy_fish(name)
     "I have #{} fish, #{} dog(s), and #{} cat(s)."
     #binding.pry
   end
