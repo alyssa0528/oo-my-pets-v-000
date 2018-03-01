@@ -92,16 +92,15 @@ class Owner
     self.pets.each do |type, pets| #iterate through pets hash (|fishes/cats/dogs, multiple pet objects|)
       pets.each do |animal| # |each indiv pet object|
       animal.mood = "nervous"
-      binding.pry
       end
     end 
     self.pets.clear 
-    #binding.pry
   end 
   
   def list_pets
-    #self.pets.each do |type, pets|
-    #end 
+    self.pets.each do |type, pets|
+      binding.pry
+    end 
     "I have #{} fish, #{} dog(s), and #{} cat(s)."
     #binding.pry
   end
