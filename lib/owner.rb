@@ -96,7 +96,7 @@ class Owner
       end
     end 
     self.pets.clear 
-    binding.pry
+    #binding.pry
   end 
   
   def list_pets
