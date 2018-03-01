@@ -102,7 +102,7 @@ class Owner
       pets.count 
       binding.pry
     end 
-    "I have #{} fish, #{} dog(s), and #{} cat(s)."
+    "I have #{pets.count[0]} fish, #{pets.count[1]} dog(s), and #{pets.count[2]} cat(s)."
     #binding.pry
   end
    
