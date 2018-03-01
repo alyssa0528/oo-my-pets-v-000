@@ -74,12 +74,6 @@ class Owner
       dog.mood = "happy"
     end 
     binding.pry
-    pets
-    Dog.mood = "happy"
-    #self.pets[:dogs]#=> Daisy dog object
-    #self.pets[:dogs].instance_variable_get :@mood 
-    #.mood = "happy"
-        binding.pry
   end 
   
   def play_with_cats
