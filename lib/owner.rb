@@ -71,6 +71,7 @@ class Owner
   
   def walk_dogs 
     self.pets[:dogs]#=> Daisy dog object
+    object.instance_variable_get 
     #.mood = "happy"
         binding.pry
   end 
