@@ -75,6 +75,12 @@ class Owner
         #binding.pry
   end 
   
+  def play_with_cats
+  end 
+  
+  def feed_fish
+  end 
+  
   def sell_pets
     
   end 
