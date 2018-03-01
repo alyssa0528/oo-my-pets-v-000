@@ -75,6 +75,10 @@ class Owner
         #binding.pry
   end 
   
+  def sell_pets
+    
+  end 
+  
   def list_pets
     self.pets
     "I have #{} fish, #{} dog(s), and #{} cat(s)."
