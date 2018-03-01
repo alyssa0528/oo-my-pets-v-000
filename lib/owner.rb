@@ -100,7 +100,6 @@ class Owner
   def list_pets
     self.pets.each do |type, pets|
       pets.count 
-      binding.pry
     end 
     "I have #{pets.count[0]} fish, #{pets.count[1]} dog(s), and #{pets.count[2]} cat(s)."
     #binding.pry
