@@ -71,7 +71,7 @@ class Owner
   
   def walk_dogs 
     self.pets[:dogs]#=> Daisy dog object
-    .mood = "happy"
+    #.mood = "happy"
         binding.pry
   end 
   
