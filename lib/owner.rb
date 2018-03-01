@@ -91,6 +91,7 @@ class Owner
   def sell_pets
       binding.pry
     self.pets.each do |type, pets|
+      type.each do |
       type.mood = "nervous"
     end
     self.pets.clear 
