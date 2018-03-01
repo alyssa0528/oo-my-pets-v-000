@@ -89,10 +89,10 @@ class Owner
   end 
   
   def sell_pets
-      binding.pry
     self.pets.each do |type, pets| #iterate through pets hash (|fishes/cats/dogs, indiv pet objects|)
       pets.each do |animal| # |
       animal.mood = "nervous"
+      binding.pry
       end
     end 
     self.pets.clear 
